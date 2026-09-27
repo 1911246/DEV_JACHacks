@@ -1,9 +1,9 @@
-# Find-My-Food (PlateMate)
+# PlateMate
 
 ## Inspiration
 Every day, massive amounts of perfectly good, nutritious food go to waste. On college campuses, students frequently find themselves with leftover catering from events, extra grocery staples before breaks, or surplus home-cooked meals they made too much of. At the same time, families and individuals in neighboring communities face deep food insecurity. 
 
-We wanted to bridge this gap, but we recognized a glaring bottleneck: security, verification, and logistics. Donors don't always know where to drop food off safely, and recipients need to ensure the food they are getting is safe, properly stored, and dietary-transparent. We built **Find-My-Food** (production name: **PlateMate**) to serve as a warm, hand-drawn community bulletin board that eliminates this friction by routing campus and neighborhood donations through verified local non-profits and community intermediaries.
+We wanted to bridge this gap, but we recognized a glaring bottleneck: security, verification, and logistics. Donors don't always know where to drop food off safely, and recipients need to ensure the food they are getting is safe, properly stored, and dietary-transparent. We built **PlateMate** to serve as a warm, hand-drawn community bulletin board that eliminates this friction by routing campus and neighborhood donations through verified local non-profits and community intermediaries.
 
 ## What it does
 Find-My-Food is a full-stack community food redistribution network that coordinates three distinct user roles into a seamless, trusted marketplace:
