@@ -1,0 +1,69 @@
+INFO - Builtins module is already bound, skipping.
+INFO - Builtins module is already bound, skipping.
+[WARNING] Failed to load routing config, using default auth_redirect='/login': cannot import name 'PluginConfig' from 'jaclang.runtimelib.client.config_loader' (C:\Users\nehas\AppData\Roaming\Python\Python314\site-packages\jaclang\runtimelib\client\config_loader.jac)
+  ? Initial client compilation completed
+Jac API Server running on http://0.0.0.0:8766
+Module: main
+
+Available endpoints:
+  POST /user/register - Create a new user
+  POST /user/login - Login and get auth token
+  GET  /user/info - Get current user information (auth required)
+  PUT  /user/username - Update username (auth required)
+  PUT  /user/password - Update password (auth required)
+  GET /functions - List all functions
+  GET /walkers - List all walkers
+  GET /function/<name> - Get function signature
+  GET /walker/<name> - Get walker info
+  POST /function/<name> - Call a function
+  POST /walker/<name> - Spawn a walker
+  GET /cl/<name> - Render HTML page for client function
+
+Base route (/) configured to serve: app
+
+Press Ctrl+C to stop the server
+[HMR] Reloaded: .\main.jac
+[OK] Recompiled: .\main.jac -> main.js
+[ERROR] Error:   \u2716 Vite dev server failed to start
+
+  Vite output:
+    node:internal/modules/esm/resolve:201
+      const resolvedOption = FSLegacyMainResolve(pkgPath, packageConfig.main, baseStringified);
+                             ^
+    
+    Error: Cannot find package 'C:\Users\nehas\AppData\Local\Temp\bunx-1395644370-vite@latest\node_modules\picomatch\index.js' imported from C:\Users\nehas\AppData\Local\Temp\bunx-1395644370-vite@latest\node_modules\vite\dist\node\chunks\node.js
+        at legacyMainResolve (node:internal/modules/esm/resolve:201:26)
+        at packageResolve (node:internal/modules/esm/resolve:778:12)
+        at moduleResolve (node:internal/modules/esm/resolve:859:18)
+        at defaultResolve (node:internal/modules/esm/resolve:992:11)
+        at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+        at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+        at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+        at #resolve (node:internal/modules/esm/loader:683:17)
+        at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+        at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33) {
+      code: 'ERR_MODULE_NOT_FOUND'
+    }
+    
+    Node.js v24.19.0
+
+  JAC DEV SERVER v0.16.7
+
+  >  Local:     http://localhost:8765/
+  >  Network:   http://10.167.3.122:8765/
+  >  Network:   http://172.29.112.1:8765/
+
+  ? Server ready
+
+  Mode: Development (with HMR)
+    App:  http://localhost:8765/
+    API:  http://localhost:8766/
+
+[WATCHING] Watching for changes...
+   Monitoring: **/*.jac (14 files)
+
+INFO - Builtins module is already bound, skipping.
+INFO - Builtins module is already bound, skipping.
+[WARNING] Failed to load routing config, using default auth_redirect='/login': cannot import name 'PluginConfig' from 'jaclang.runtimelib.client.config_loader' (C:\Users\nehas\AppData\Roaming\Python\Python314\site-packages\jaclang\runtimelib\client\config_loader.jac)
+127.0.0.1 - "GET / HTTP/1.1" 500 -
+[OK] Recompiled: .\components.jac -> components.js

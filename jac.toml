@@ -1,0 +1,42 @@
+[project]
+name = "JACHACKS"
+version = "0.1.0"
+description = "A full-stack Jac application"
+entry-point = "main.jac"
+kind = "fullstack"
+
+[dependencies.npm]
+react = "^18.2.0"
+react-dom = "^18.2.0"
+react-router-dom = "^6.22.0"
+react-error-boundary = "^5.0.0"
+react-hook-form = "^7.71.0"
+zod = "^4.3.6"
+"@hookform/resolvers" = "^5.2.2"
+
+[dependencies.npm.dev]
+vite = "^6.4.1"
+"@vitejs/plugin-react" = "^4.2.1"
+typescript = "^5.3.3"
+"@types/react" = "^18.2.0"
+"@types/react-dom" = "^18.2.0"
+
+[dev-dependencies]
+watchdog = ">=3.0.0"
+
+[serve]
+base_route_app = "app"
+
+[plugins.client]
+
+# Browser-tab title and favicon for the served app.
+[plugins.client.app_meta_data]
+title = "PlateMate"
+
+# Food-photo analysis model (see lib.jac). call_params cap the output so the
+# free-tier Groq rate limits are respected.
+[plugins.byllm]
+verbose = true
+[plugins.byllm.call_params]
+max_tokens = 900
+reasoning_effort = "none"
